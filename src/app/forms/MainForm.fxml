@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+  <children>
+    <org.develnext.jphp.ext.javafx.support.control.CanvasEx focusTraversable="false" height="432" id="canvas" layoutX="0" layoutY="48" styleClass="" width="640"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-canvas" visible="1"/>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="48" prefWidth="640" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ColorPicker focusTraversable="true" id="colorPicker" layoutX="72" layoutY="8" prefHeight="32" prefWidth="144" styleClass="combo-box-base color-picker "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-colorPicker" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="8" prefHeight="30" prefWidth="56" styleClass="label " text="Color" textAlignment="LEFT" textFill="#b31a1a" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <ComboBox editable="false" focusTraversable="true" id="combobox" layoutX="336" layoutY="10" prefHeight="13" prefWidth="144" promptText="" styleClass="combo-box-base combo-box " value="1" visibleRowCount="10">
+          <items xmlns:fx="http://javafx.com/fxml">
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="1"/>
+              <String fx:value="2"/>
+              <String fx:value="3"/>
+              <String fx:value="4"/>
+              <String fx:value="5"/>
+              <String fx:value="6"/>
+              <String fx:value="7"/>
+              <String fx:value="8"/>
+              <String fx:value="9"/>
+              <String fx:value="10"/>
+              <String fx:value="11"/>
+              <String fx:value="12"/>
+              <String fx:value="13"/>
+              <String fx:value="14"/>
+              <String fx:value="15"/>
+              <String fx:value="16"/>
+              <String fx:value="17"/>
+              <String fx:value="18"/>
+              <String fx:value="19"/>
+              <String fx:value="20"/>
+              <String fx:value="21"/>
+              <String fx:value="22"/>
+              <String fx:value="23"/>
+              <String fx:value="24"/>
+              <String fx:value="25"/>
+              <String fx:value="26"/>
+              <String fx:value="27"/>
+              <String fx:value="28"/>
+              <String fx:value="29"/>
+              <String fx:value="30"/>
+              <String fx:value="31"/>
+              <String fx:value="32"/>
+            </FXCollections>
+          </items>
+        </ComboBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-combobox" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="232" layoutY="8" prefHeight="24" prefWidth="96" styleClass="label " text="lineWidth" textAlignment="LEFT" textFill="#331a80" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="489" layoutY="10" prefHeight="24" prefWidth="72" styleClass="button " text="clear" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="570" layoutY="10" prefHeight="25" prefWidth="56" styleClass="button " text="save" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>
